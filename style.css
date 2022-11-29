@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(235, 231, 227);
+}
+
+.header__nav {
+    border-bottom: 2px solid rgb(15, 15, 15);
+    text-transform: uppercase;
+    background-color: white;
+    padding: .7em;
+}
+
+.articles {
+    border: 5px solid rgb(48, 38, 141);
+    margin: 2em;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5;
+}
+
+p {
+    padding: .4em;
+}
+
+h2 {
+    color: rgb(6, 6, 83);
+}
+.article__1 {
+    padding: 2em;
+    border: 1px solid black
+}
+
+.article__2 {
+    padding: 2em;
+    border: 1px solid black
+}
+
+.article__3 {
+    padding: 2em;
+    border: 1px solid black
+}
+
+article>h2 {
+    margin: .5em;
+    text-transform: uppercase;
+}
+article>author {
+    font-weight: 400;
+}
+
+.author {
+    padding-top: .5em;
+    font-weight: 700;
+    color: color: rgb(6, 6, 83);
+}
+
+article>a {
+    color: black;
+}
+
+.footer {
+    height: 15vh;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+footer>p {
+    font-weight: 100;
+}
+
+input[type="submit"] {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(47, 41, 117);
+    border: 1px solid rgb(17, 9, 27);
+    border-radius: 6px;
+}
